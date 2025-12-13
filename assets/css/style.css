@@ -56,3 +56,14 @@ header {
     height: 500px;
     z-index: 1;
 }
+
+/***********************************/
+/***********************************/
+/***********************************/
+/*SECTION HERO********************/
+.hero__section {
+    position: relative;
+    margin-top: -17em;
+    color: var(--color-texte);
+    z-index: 2;
+}
