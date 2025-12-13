@@ -95,7 +95,7 @@ header {
 .cta__btn {
     text-decoration: none;
     padding: 1em 2em;
-    background-color: var(--color-secondary);
+    background-color: var(--color-button);
     color: var(--color-texte);
 }
 
