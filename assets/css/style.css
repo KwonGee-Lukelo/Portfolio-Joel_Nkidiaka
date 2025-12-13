@@ -67,3 +67,39 @@ header {
     color: var(--color-texte);
     z-index: 2;
 }
+
+.hero__section .topLine {
+    color: var(--color-texte);
+    font-size: 1rem;
+    line-height: 1.2em;
+}
+
+.hero__section span {
+    color: var(--color-texte-important);
+}
+
+.hero__section h2 {
+    font-size: var(--size-title);
+    font-weight: 700;
+    margin-bottom: -15px;
+}
+
+.hero__section p {
+    font-size: var(--size-paragraphe);
+}
+
+.cta{
+    margin: 1.5em 0;
+}
+
+.cta__btn {
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: var(--color-secondary);
+    color: var(--color-texte);
+}
+
+.cta__btn:hover {
+    background-color: #db761d;
+    color: var(--color-texte);
+}
