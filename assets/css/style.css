@@ -33,3 +33,26 @@ nav {
     font-size: 1.2rem;
 }
 /***********************/
+body {
+    font-size: var(--size-paragraphe);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-image: url("/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    overflow: hidden;
+}
+
+.blur__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(6px);
+    height: 500px;
+    z-index: 1;
+}
