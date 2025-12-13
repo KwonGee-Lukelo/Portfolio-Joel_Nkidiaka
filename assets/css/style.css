@@ -112,3 +112,46 @@ header {
    margin: 7em 0 3em 0;
 }
 
+.content__about {
+    background-color: var(--color-secondary);
+}
+
+.content__category {
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-texte);
+    padding: 2em;
+
+}
+
+.content__number {
+    background-color: var(--color-primary);
+    /*padding: 1.95em 1em;
+    padding: 8em 2em;*/
+    margin-right: .5em;
+    height: 95%;
+    padding: 1em;
+}
+
+.content__number p {
+    margin-top: 3em;
+    text-align: center;
+    font-size: var(--size-title);
+    transform: rotate(-90deg);
+    text-align: center;
+    color : var(--color-texte);
+}
+
+.content {
+    text-align: justify;
+}
+
+.content__title p{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--color-texte-important);
+}
+
+strong {
+    color: var(--color-texte-important);
+}
