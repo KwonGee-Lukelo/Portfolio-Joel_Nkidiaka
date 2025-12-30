@@ -144,6 +144,7 @@ header {
 
 .content {
     text-align: justify;
+    font-weight: 300;
 }
 
 .content__title p{
@@ -154,4 +155,76 @@ header {
 
 strong {
     color: var(--color-texte-important);
+}
+
+/***********************************/
+/***********************************/
+/***********************************/
+/*SECTION SERVICES********************/
+.services__section {
+    padding: 5em 0;
+}
+
+.service {
+    padding: 2em 1em;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.service:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-texte);
+}
+
+.service:hover,
+.service__key:hover {
+    box-shadow: 5px 3px 7px 2px rgb(168, 168, 168);
+}
+
+.service__key {
+    padding: 2em 1em;
+    cursor: pointer;
+    transition: .3s ease-in;
+    background-color: var(--color-secondary);
+    color: var(--color-texte);
+}
+
+.service__key .header__service span {
+    background-color: #db761d
+}
+
+.service__key .title__service p,
+.title__service p  {
+    color: var(--color-texte-important);
+    font-weight: 800;
+}
+
+.header__service {
+    text-align: center;
+}
+
+.header__service span {
+    background-color: var(--color-primary);
+    padding: 1.5em;
+    border-radius: 70px;
+}
+
+.header__service span i {
+    color: var(--color-texte);
+    font-size: 24px;
+}
+
+.title__service {
+    margin: 2em 0;
+}
+
+.content__service ul li {
+    font-weight: 300;
+    list-style: none;
+    display : flex;
+    justify-content: start;
+}
+
+.content__service ul li i {
+    color: var(--color-primary);
 }
