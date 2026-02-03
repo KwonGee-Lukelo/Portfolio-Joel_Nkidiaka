@@ -11,13 +11,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Acceuil</title>
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="blur__bg"></div>
       <nav class="navbar navbar-dark navbar-expand-md fixed-top p-4">
         <div class="container">
@@ -64,7 +68,7 @@
                 <a href="#" class="nav-link">Réalisation</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Apropos</a>
+                <a href="assets/pages/apropos.html" class="nav-link">Apropos</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">Contact</a>
@@ -175,10 +179,172 @@
             </div>
           </div>
         </section>
+
+        <section class="services__section">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service">
+                <div class="header__service">
+                  <span>
+                    <i class="ri-file-edit-line"></i>
+                  </span>
+
+                  <div class="title__service">
+                    <p>Consultation & Conception</p>
+                  </div>
+                </div>
+
+                <div class="content__service">
+                  <ul>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Evaluation des
+                      besoins du client
+                    </li>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Elaboration de
+                      plans et de designs architecturaux
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service__key">
+                <div class="header__service">
+                  <span>
+                    <i class="ri-building-line"></i>
+                  </span>
+
+                  <div class="title__service">
+                    <p>Construction de Batiments</p>
+                  </div>
+                </div>
+
+                <div class="content__service">
+                  <ul>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Construction de
+                      maisons individuelles, immeubles, bureaux etc..
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service">
+                <div class="header__service">
+                  <span>
+                    <i class="ri-todo-line"></i>
+                  </span>
+
+                  <div class="title__service">
+                    <p>Gestion de Projet</p>
+                  </div>
+                </div>
+
+                <div class="content__service">
+                  <ul>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i>
+                      Coordination de toutes les phases du projet
+                    </li>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Suivi des délais
+                      et gestion des budgets
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service">
+                <div class="header__service">
+                  <span>
+                    <i class="ri-file-edit-line"></i>
+                  </span>
+
+                  <div class="title__service">
+                    <p>Rénovation et Restauration</p>
+                  </div>
+                </div>
+
+                <div class="content__service">
+                  <ul>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Rénovation de
+                      bâtiments anciens
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service">
+                <div class="header__service">
+                  <span>
+                    <i class="ri-file-edit-line"></i>
+                  </span>
+
+                  <div class="title__service">
+                    <p>Travaux de Génie Civil</p>
+                  </div>
+                </div>
+
+                <div class="content__service">
+                  <ul>
+                    <li>
+                      <i class="ri-arrow-right-long-line"></i> Construction de
+                      routes, ponts, etc...
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="realizations__section">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/003.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/004.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/006.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/002.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/001.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/005.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/images/realisations/007.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
       </div>
     </div>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
