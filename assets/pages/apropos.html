@@ -13,11 +13,146 @@
     />
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/pages.css" />
     <title>Apropos</title>
   </head>
 
   <body>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top p-4">
+        <div class="container">
+          <a href="#" class="navbar-brand logo">JN.</a>
+
+          <!--BUTTON HAMBURGER-->
+          <div
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </div>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle nav-link"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Acceuil
+                </a>
+                <ul class="dropdown-menu dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item">Section Apropos</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Section Services</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Section Réalisation</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Réalisation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Apropos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-md-5">
+            <img
+              src="/assets/images/realisations/008.jpg"
+              alt="Joel Nkidiaka Ingenieur BTP"
+              class="img-fluid rounded-4 shadow-sm"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <h2 class="fw-bold mb-3">Joel Nkidiaka</h2>
+            <h6 class="text-mute mb-4">
+              Ingénieur en Bâtiment et Travaux Publics
+            </h6>
+            <p>
+              Joel Nkidiaka est ingénieur en
+              <strong>Bâtiment et Travaux Publics</strong>, animé par une
+              conviction simple:
+              <strong
+                >un bon ouvrage et avant tout un ouvrage utile, sûr et
+                durable.</strong
+              >
+            </p>
+
+            <p>
+              Calme, réfléchi et profondément attaché au travil bien fait,
+              j'aborde chaque projet avec sérieux et responsabilité. Mon
+              parcours sur le terrain ma appris que l'ingénierie ne se limite
+              pas aux calculs, mais repose aussi sur l'écoute, l'organisation et
+              le respect des réalités du chantier.
+            </p>
+
+            <p>
+              Discret mais exigeant, j'accorde une attention particulière aux
+              détails, à la qualité d'exécution et à la sécurité. Pour moi bâtir
+              c'est asumer une responsabilité envers les générations présentes
+              et futures.
+            </p>
+
+            <div class="download"> 
+              <a href="" type="button">Télécharger CV</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="timeline text-center py-5">
+          <div class="row">
+            <div class="col-md-6 mb-3 timeline__card">
+              <h4 class="fw-bold">Formation</h4>
+              <p class="text-white fs-6">
+                BTP - Technicien en Bâtiment et Travaux Publics
+              </p>
+            </div>
+            <div class="col-md-6 mb-3 timeline__card__default">
+              <h4 class="fw-bold">Experience</h4>
+              <p class="text-white fs-6">3 années sur le terrain</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 mb-3 timeline__card__default">
+              <h4 class="fw-bold">Projets</h4>
+              <p class="text-white fs-6">4 projets réalisés</p>
+            </div>
+            <div class="col-md-6 mb-3 timeline__card">
+              <h4 class="fw-bold">Vision</h4>
+              <p class="text-white fs-6">Durabilité & performance</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
