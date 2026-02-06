@@ -3,58 +3,62 @@
 
 /* Déclarations des differentes couleurs */
 :root {
-  --color-primary: #E67E22;
+  --color-primary: #e67e22;
   --color-secondary: #0a1118;
-  --color-button: #E67E22;
+  --color-button: #e67e22;
   --color-texte: #fff;
-  --color-texte-important: #E67E22;
+  --color-texte-important: #e67e22;
   --size-title: 2.588rem;
   --size-paragraphe: 1.125rem;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /******************************/
 /******************************/
 /*NAVBAR******************/
 nav {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
-.logo{
-    font-size: 2rem;
-    font-weight: 800;
+.scroll__style {
+  background-color: var(--color-secondary);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .nav-link {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 /***********************/
 body {
-    font-size: var(--size-paragraphe);
-    font-family: "Montserrat", sans-serif;
+  font-size: var(--size-paragraphe);
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
-    background-image: url("/assets/images/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    overflow: hidden;
+  background-image: url("/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  overflow: hidden;
 }
 
 .blur__bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    backdrop-filter: blur(6px);
-    height: 500px;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(6px);
+  height: 500px;
+  z-index: 1;
 }
 
 /***********************************/
@@ -62,99 +66,98 @@ body {
 /***********************************/
 /*SECTION HERO********************/
 .hero__section {
-    position: relative;
-    margin-top: -17em;
-    color: var(--color-texte);
-    z-index: 2;
+  position: relative;
+  margin-top: -17em;
+  color: var(--color-texte);
+  z-index: 2;
 }
 
 .hero__section .topLine {
-    color: var(--color-texte);
-    font-size: 1rem;
-    line-height: 1.2em;
+  color: var(--color-texte);
+  font-size: 1rem;
+  line-height: 1.2em;
 }
 
 .hero__section span {
-    color: var(--color-texte-important);
+  color: var(--color-texte-important);
 }
 
 .hero__section h2 {
-    font-size: var(--size-title);
-    font-weight: 700;
-    margin-bottom: -15px;
+  font-size: var(--size-title);
+  font-weight: 700;
+  margin-bottom: -15px;
 }
 
 .hero__section p {
-    font-size: var(--size-paragraphe);
+  font-size: var(--size-paragraphe);
 }
 
-.cta{
-    margin: 1.5em 0;
+.cta {
+  margin: 1.5em 0;
 }
 
 .cta__btn {
-    text-decoration: none;
-    padding: 1em 2em;
-    background-color: var(--color-button);
-    color: var(--color-texte);
+  text-decoration: none;
+  padding: 1em 2em;
+  background-color: var(--color-button);
+  color: var(--color-texte);
 }
 
 .cta__btn:hover {
-    background-color: #db761d;
-    color: var(--color-texte);
+  background-color: #db761d;
+  color: var(--color-texte);
 }
 
 /***********************************/
 /***********************************/
 /***********************************/
 /*SECTION APROPOS********************/
-.about__section  {
-   margin: 7em 0 3em 0;
+.about__section {
+  margin: 7em 0 3em 0;
 }
 
 .content__about {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 .content__category {
-    display: flex;
-    justify-content: space-around;
-    color: var(--color-texte);
-    padding: 2em;
-
+  display: flex;
+  justify-content: space-around;
+  color: var(--color-texte);
+  padding: 2em;
 }
 
 .content__number {
-    background-color: var(--color-primary);
-    /*padding: 1.95em 1em;
+  background-color: var(--color-primary);
+  /*padding: 1.95em 1em;
     padding: 8em 2em;*/
-    margin-right: .5em;
-    height: 95%;
-    padding: 1em;
+  margin-right: 0.5em;
+  height: 95%;
+  padding: 1em;
 }
 
 .content__number p {
-    margin-top: 3em;
-    text-align: center;
-    font-size: var(--size-title);
-    transform: rotate(-90deg);
-    text-align: center;
-    color : var(--color-texte);
+  margin-top: 3em;
+  text-align: center;
+  font-size: var(--size-title);
+  transform: rotate(-90deg);
+  text-align: center;
+  color: var(--color-texte);
 }
 
 .content {
-    text-align: justify;
-    font-weight: 300;
+  text-align: justify;
+  font-weight: 300;
 }
 
-.content__title p{
-    text-transform: uppercase;
-    font-weight: 800;
-    color: var(--color-texte-important);
+.content__title p {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-texte-important);
 }
 
 strong {
-    color: var(--color-texte-important);
+  color: var(--color-texte-important);
 }
 
 /***********************************/
@@ -162,76 +165,102 @@ strong {
 /***********************************/
 /*SECTION SERVICES********************/
 .services__section {
-    padding: 5em 0;
+  padding: 5em 0;
 }
 
 .service {
-    padding: 2em 1em;
-    cursor: pointer;
-    transition: .3s ease-in;
+  padding: 2em 1em;
+  cursor: pointer;
+  transition: 0.3s ease-in;
 }
 
 .service:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-texte);
+  background-color: var(--color-secondary);
+  color: var(--color-texte);
 }
 
 .service:hover,
 .service__key:hover {
-    box-shadow: 5px 3px 7px 2px rgb(168, 168, 168);
+  box-shadow: 5px 3px 7px 2px rgb(168, 168, 168);
 }
 
 .service__key {
-    padding: 2em 1em;
-    cursor: pointer;
-    transition: .3s ease-in;
-    background-color: var(--color-secondary);
-    color: var(--color-texte);
+  padding: 2em 1em;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  background-color: var(--color-secondary);
+  color: var(--color-texte);
 }
 
 .service__key .header__service span {
-    background-color: #db761d
+  background-color: #db761d;
 }
 
 .service__key .title__service p,
-.title__service p  {
-    color: var(--color-texte-important);
-    font-weight: 800;
+.title__service p {
+  color: var(--color-texte-important);
+  font-weight: 800;
 }
 
 .header__service {
-    text-align: center;
+  text-align: center;
 }
 
 .header__service span {
-    background-color: var(--color-primary);
-    padding: 1.5em;
-    border-radius: 70px;
+  background-color: var(--color-primary);
+  padding: 1.5em;
+  border-radius: 70px;
 }
 
 .header__service span i {
-    color: var(--color-texte);
-    font-size: 24px;
+  color: var(--color-texte);
+  font-size: 24px;
 }
 
 .title__service {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 .content__service ul li {
-    font-weight: 300;
-    list-style: none;
-    display : flex;
-    justify-content: start;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  justify-content: start;
 }
 
 .content__service ul li i {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 /***********************************/
 /***********************************/
 /***********************************/
 /*SECTION REALISATION********************/
 .mySwiper {
-    height: 250px;
+  width: 600px;
+  height: 550px;
+  margin-bottom: 2em;
+}
+
+.swiper-slide img {
+  height: 750px;
+  width: auto;
+}
+
+/***********************************/
+/***********************************/
+/***********************************/
+/*FOOTER********************/
+footer {
+  background-color: var(--color-secondary);
+  padding: 1em 1.5em;
+  color: var(--color-texte);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-texte-important);
+}
+
+footer a:hover {
+  color: #f79139;
 }
