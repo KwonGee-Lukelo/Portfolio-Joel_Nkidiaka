@@ -16,9 +16,12 @@
     margin: 0;
     padding: 0;
 }
-
+/***********************************/
+/***********************************/
+/***********************************/
+/*A PROPOS********************/
 .main {
-    margin-top: 10em;
+    margin: 10em 0 5em 0;
 }
 
 .download a {
@@ -48,4 +51,51 @@
      background-color: var(--color-secondary) ;
     padding: 1em;
     color: var(--color-button );
+}
+/***********************************/
+/***********************************/
+/***********************************/
+/*CONTACT********************/
+.form__part {
+    background-color: var(--color-secondary);
+    padding: 1em 2em;
+}
+
+form {
+    padding: 1em 1.5em;
+    color: var(--color-texte);
+}
+.cta {
+  margin: 1.5em 0;
+}
+
+.cta__btn {
+  text-decoration: none;
+  padding: .7em 2em;
+  background-color: var(--color-button);
+  color: var(--color-texte);
+  border : none
+}
+
+.cta__btn:hover {
+  background-color: #db761d;
+  color: var(--color-texte);
+}
+/***********************************/
+/***********************************/
+/***********************************/
+/*FOOTER********************/
+footer {
+    background-color: var(--color-secondary);
+    padding: 1em 1.5em;
+    color: var(--color-texte);  
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-texte-important);
+}
+
+footer a:hover{
+    color: #f79139
 }
