@@ -61,6 +61,52 @@
 /***********************************/
 /***********************************/
 /*CONTACT********************/
+.contact__section {
+    background-color: #e6e6e6;
+    padding: 2em;
+}
+.bloc {
+    margin: 7em auto;
+}
+
+.info__contact {
+    display: flex;
+    justify-content: start;
+}
+
+.contact__icon,
+.facebook,
+.instagram,
+.tiktok {
+    color: var(--color-texte);
+    background-color: var(--color-secondary);
+    padding: .8em 1em;
+    border-radius: 70px;
+}
+
+.informations {
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.informations a {
+    text-decoration : none;
+    color: #1f1e1e;
+}
+
+.social__network {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.5em;
+}
+
+.facebook a,
+.instagram a,
+.tiktok a {
+    text-decoration: none;
+    color: var(--color-texte);
+}
+
 .form__part {
     background-color: var(--color-secondary);
     padding: 1em 2em;
