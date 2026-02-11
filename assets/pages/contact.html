@@ -94,7 +94,7 @@
                 </span>
 
                 <div class="informations">
-                  <p>N°4, Kulu, Q/Munganga, C/Ngaliema</p>
+                  <span>N°4, Kulu, Q/Munganga, C/Ngaliema</span>
                 </div>
               </div>
 
@@ -116,7 +116,7 @@
                 </span>
 
                 <div class="informations">
-                  <p>+243 81 99 49 171</p>
+                  <span>+243 81 99 49 171</span>
                 </div>
               </div>
             </div>
@@ -135,7 +135,8 @@
           </div>
 
           <div class="col-md-7 form__part">
-            <form action="">
+            <form name="message" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="message">
               <div class="mb-3">
                 <label for="name" class="form-label">Nom</label>
                 <input
@@ -179,7 +180,7 @@
       </div>
     </footer>
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
