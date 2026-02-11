@@ -16,6 +16,22 @@ console.log(an);
 date.textContent = an;
 console.log(date)
 
+//
+const form = document.querySelector("form");
+
+form.addEventListener("submit", async(e) => {
+  e.preventDefault();
+
+  const data = new FormData(form);
+
+  await fetch("/", {
+    method: "POST",
+    body: data,
+  });
+
+  alert("Message envoyé !")
+})
+
 /*SWIPER**********
  *************************/
 var swiper = new Swiper(".mySwiper", {
