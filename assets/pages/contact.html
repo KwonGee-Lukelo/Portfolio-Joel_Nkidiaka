@@ -137,6 +137,7 @@
           <div class="col-md-7 form__part">
             <form name="message" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="message">
+
               <div class="mb-3">
                 <label for="name" class="form-label">Nom</label>
                 <input
@@ -144,6 +145,7 @@
                   id="nom"
                   class="form-control"
                   placeholder="Nkidiaka"
+                  required
                 />
               </div>
 
@@ -154,12 +156,13 @@
                   id="prenom"
                   class="form-control"
                   placeholder="Joel"
+                  required
                 />
               </div>
 
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5"></textarea>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
               </div>
 
               <div class="mb-3 cta">
