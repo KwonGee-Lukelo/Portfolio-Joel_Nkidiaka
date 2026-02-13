@@ -264,3 +264,18 @@ footer a {
 footer a:hover {
   color: #f79139;
 }
+
+/***********************************/
+/***********************************/
+/***********************************/
+/*SCREEN MOBILE********************/
+@media screen and(min-width: 396px) and (maw-width: 5966px) {
+  .header {
+    height: 700px;
+  }
+
+  #navBar {
+     background-color: var(--color-secondary);
+  }
+
+}
