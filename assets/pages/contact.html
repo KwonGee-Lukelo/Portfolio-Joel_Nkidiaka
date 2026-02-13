@@ -14,6 +14,16 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/pages.css" />
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <script>
+      ScrollReveal({
+        origin: "bottom",
+        distance: "40px",
+        duration: 800,
+        easing: "ease-in-out",
+        reset: false,
+      });
+    </script>
     <title>Contact</title>
   </head>
 
@@ -136,7 +146,7 @@
 
           <div class="col-md-7 form__part">
             <form name="message" method="POST" data-netlify="true" class="form">
-              <input type="hidden" name="form-name" value="message">
+              <input type="hidden" name="form-name" value="message" />
 
               <div class="mb-3">
                 <label for="name" class="form-label">Nom</label>
@@ -162,7 +172,12 @@
 
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5" required></textarea>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  required
+                ></textarea>
               </div>
 
               <div class="mb-3 cta">
@@ -176,7 +191,7 @@
 
     <footer>
       <div class="text-center">
-        <p>
+        <p class="footer__content">
           &copy;<span id="year"></span> Joel Nkidiaka - Tous droits réservés ||
           Design by <a href="https://kwon-gee-dev.vercel.app/">Kwon</a>
         </p>
@@ -185,5 +200,10 @@
 
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <script>
+      ScrollReveal().reveal(".bloc");
+      ScrollReveal().reveal(".form__part");
+    </script>
   </body>
 </html>
