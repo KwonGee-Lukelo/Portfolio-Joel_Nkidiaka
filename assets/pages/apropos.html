@@ -14,12 +14,24 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/pages.css" />
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <script>
+      ScrollReveal({
+        origin: "bottom",
+        distance: "40px",
+        duration: 800,
+        easing: "ease-in-out",
+        reset: false,
+      });
+    </script>
     <title>Apropos</title>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-md fixed-top p-4 scroll__style">
+      <nav
+        class="navbar navbar-dark navbar-expand-md fixed-top p-4 scroll__style"
+      >
         <div class="container">
           <a href="/index.html" class="navbar-brand logo">JN.</a>
 
@@ -61,13 +73,19 @@
               </li>
 
               <li class="nav-item">
-                <a href="/assets/pages/realisation.html" class="nav-link">Réalisation</a>
+                <a href="/assets/pages/projets.html" class="nav-link"
+                  >Réalisation</a
+                >
               </li>
               <li class="nav-item">
-                <a href="/assets/pages/apropos.html" class="nav-link">Apropos</a>
+                <a href="/assets/pages/apropos.html" class="nav-link"
+                  >Apropos</a
+                >
               </li>
               <li class="nav-item">
-                <a href="/assets/pages/contact.html" class="nav-link">Contact</a>
+                <a href="/assets/pages/contact.html" class="nav-link"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -78,7 +96,7 @@
     <div class="main">
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-md-5">
+          <div class="col-md-5 jn">
             <img
               src="/assets/images/realisations/008.jpg"
               alt="Joel Nkidiaka Ingenieur BTP"
@@ -86,7 +104,7 @@
             />
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 jn__descrip">
             <h2 class="fw-bold mb-3">Joel Nkidiaka</h2>
             <h6 class="text-mute mb-4">
               Ingénieur en Bâtiment et Travaux Publics
@@ -117,31 +135,36 @@
             </p>
 
             <div class="download">
-              <a href="/assets/documents/CV à jour JOEL NKIDIAKA .pdf" download="/assets/documents/CV à jour JOEL NKIDIAKA .pdf" type="button">Télécharger CV</a>
+              <a
+                href="/assets/documents/CV à jour JOEL NKIDIAKA .pdf"
+                download="/assets/documents/CV à jour JOEL NKIDIAKA .pdf"
+                type="button"
+                >Télécharger CV</a
+              >
             </div>
           </div>
         </div>
 
         <section class="timeline text-center py-5">
           <div class="row">
-            <div class="col-md-6 mb-3 timeline__card">
+            <div class="col-md-6 mb-3 timeline__card formation">
               <h4 class="fw-bold">Formation</h4>
               <p class="text-white fs-6">
                 BTP - Technicien en Bâtiment et Travaux Publics
               </p>
             </div>
-            <div class="col-md-6 mb-3 timeline__card__default">
+            <div class="col-md-6 mb-3 timeline__card__default experience">
               <h4 class="fw-bold">Experience</h4>
               <p class="text-white fs-6">3 années sur le terrain</p>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-md-6 mb-3 timeline__card__default">
+            <div class="col-md-6 mb-3 timeline__card__default projets">
               <h4 class="fw-bold">Projets</h4>
               <p class="text-white fs-6">4 projets réalisés</p>
             </div>
-            <div class="col-md-6 mb-3 timeline__card">
+            <div class="col-md-6 mb-3 timeline__card vision">
               <h4 class="fw-bold">Vision</h4>
               <p class="text-white fs-6">Durabilité & performance</p>
             </div>
@@ -152,11 +175,30 @@
 
     <footer>
       <div class="text-center">
-        <p>&copy;<span id="year"></span> Joel Nkidiaka - Tous droits réservés || Design by <a href="assets/pages/contact.html">Kwon</a></p>
+        <p classs="footer__content">
+          &copy;<span id="year"></span> Joel Nkidiaka - Tous droits réservés ||
+          Design by <a href="assets/pages/contact.html">Kwon</a>
+        </p>
       </div>
     </footer>
 
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/js/script.js"></script>
+
+    <script>
+      ScrollReveal().reveal(".jn", {
+        origin: "left",
+      });
+
+      ScrollReveal().reveal(".jn__descrip", {
+        origin: "right",
+      });
+      
+      ScrollReveal().reveal(".formation")
+      ScrollReveal().reveal(".vision")
+      SCrollReveal().reveal(".experience")
+      ScrollReveal().reveal(".projets")
+      ScrollReveal().reveal(".footer__content")
+    </script>
   </body>
 </html>
