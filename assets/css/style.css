@@ -43,7 +43,7 @@ body {
 }
 
 .header {
-  background-image: url("/assets/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -275,7 +275,6 @@ footer a:hover {
   }
 
   #navBar {
-     background-color: var(--color-secondary);
+    background-color: var(--color-secondary);
   }
-
 }
